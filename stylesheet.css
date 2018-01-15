@@ -1,0 +1,9 @@
+@font-face {
+  font-family: fuente_1;
+  font-style: normal;
+  font-weight: normal;
+  src : url(Times-New-Romance.ttf);
+}
+.tipografia_1{
+  font-family: fuente_1;
+}

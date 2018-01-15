@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta charset="UTF-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  	<script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+    <link rel="shortcut icon" href="../assets/img/favicon.ico">
+  	<link rel="stylesheet" href="../vendors/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/styleForm.css">
+    <title>SMILE</title>
+  </head>
+  <body>
+    <form action="" class="formulario">
+      <h1 class="formulario__titulo">REGISTRATE</h1>
+      <input id="nameInput" type="text" class="formulario__input">
+      <label for="" class="formulario__label">Nombre de usuario</label>
+      <input id="email" type="text" class="formulario__input">
+      <label for="" class="formulario__label">Correo de padre</label>
+      <input id="password" type="password" class="formulario__input">
+      <label for="" class="formulario__label">Contraseña</label>
+      <div class="flex center">
+        <div class="radio">
+          <input id="radio_girl" type="radio" name="optradio"><label class="children">Niña</label>
+        </div>
+        <div class="radio">
+          <input id="radio_boy" type="radio" name="optradio"><label class="children">Niño</label>
+        </div>
+      </div>
+      <div class="selects-container flex center">
+      	<select id="day" class="form-control form-control-lg">
+        <option value="" hidden>Dia</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+        <option value="11">11</option>
+        <option value="12">12</option>
+        <option value="13">13</option>
+        <option value="14">14</option>
+        <option value="15">15</option>
+        <option value="16">16</option>
+        <option value="17">17</option>
+        <option value="18">18</option>
+        <option value="19">19</option>
+        <option value="20">20</option>
+        <option value="21">21</option>
+        <option value="22">22</option>
+        <option value="23">23</option>
+        <option value="24">24</option>
+        <option value="25">25</option>
+        <option value="26">26</option>
+        <option value="27">27</option>
+        <option value="28">28</option>
+        <option value="29">29</option>
+        <option value="30">30</option>
+        <option value="31">31</option>
+      </select>
+
+      <select id="month" class="form-control form-control-lg">
+       <option value="" hidden>Mes</option>
+        <option value="january">Enero</option>
+        <option value="february">Febrero</option>
+        <option value="march">Marzo</option>
+        <option value="april">Abril</option>
+        <option value="may">Mayo</option>
+        <option value="june">Junio</option>
+        <option value="july">Julio</option>
+        <option value="august">Agosto</option>
+        <option value="september">Setiembre</option>
+        <option value="octuber">Octubre</option>
+        <option value="november">Noviembre</option>
+        <option value="december">Diciembre</option>
+      </select>
+
+    <select id="year" class="form-control form-control-lg">
+       <option value="" hidden>Año</option>
+        <option value="2000">2000</option>
+        <option value="2001">2001</option>
+        <option value="2002">2002</option>
+        <option value="2003">2003</option>
+        <option value="2004">2004</option>
+        <option value="2005">2005</option>
+        <option value="2006">2006</option>
+        <option value="2007">2007</option>
+        <option value="2008">2008</option>
+        <option value="2009">2009</option>
+        <option value="2010">2010</option>
+        <option value="2011">2011</option>
+        <option value="2012">2012</option>
+        <option value="2013">2013</option>
+      </select>
+      </div>
+      <div class="check flex center">
+        <input type="checkbox" id="checkBox">
+        <label >Estoy de acuerdo con los <a href="#">terminos de privacidad</a> de Smile.</label>
+      </div>
+      <div class=" btns flex center">
+        <button id="done-btn" type="button" class="btn">Crear cuenta SMILE</button>
+        <button id="login-redirect" type="button" class="btn">¿Ya estas registrado?</button>
+      </div>
+      </form>
+
+
+
+    <script src="../vendors/jquery/jquery-3.2.1.min.js"></script>
+  	<script src="../js/signup.js"></script>
+  	<script src="../js/data.js"></script>
+  </body>
+</html>

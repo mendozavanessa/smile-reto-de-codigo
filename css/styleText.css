@@ -1,0 +1,30 @@
+body {
+  font-family: 'Raleway', sans-serif;
+}
+.menu li a{
+  font-family: sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  color: black;
+}
+.green{
+  text-shadow: 0 0 10px #f0f0f0,0 0 20px #f0f0f0,0 0 30px #f0f0f0,0 0 40px #0cf400,0 0 50px #0cf400,0 0 80px #0cf400,0 0 100px #0cf400,0 0 150px #0cf400;
+}
+.pink{
+  text-shadow: 0 0 10px #f0f0f0,0 0 20px #f0f0f0,0 0 30px #f0f0f0,0 0 40px #ff00e5,0 0 50px #ff00e5,0 0 80px #ff00e5,0 0 100px #ff00e5,0 0 150px #ff00e5;
+}
+.red{
+  text-shadow: 0 0 10px #f0f0f0,0 0 20px #f0f0f0,0 0 30px #f0f0f0,0 0 40px #ff0000,0 0 50px #ff0000,0 0 80px #ff0000,0 0 100px #ff0000,0 0 150px #ff0000;
+}
+.navy-blue{
+  text-shadow: 0 0 10px #f0f0f0,0 0 20px #f0f0f0,0 0 30px #f0f0f0,0 0 40px #9800ff,0 0 50px #9800ff,0 0 80px #9800ff,0 0 100px #9800ff,0 0 150px #9800ff;
+}
+.celeste{
+  text-shadow: 0 0 10px #f0f0f0,0 0 20px #f0f0f0,0 0 30px #f0f0f0,0 0 40px #00e3de,0 0 50px #00e3de,0 0 80px #00e3de,0 0 100px #00e3de,0 0 150px #00e3de;
+}
+.amarillo{
+  text-shadow: 0 0 10px #f0f0f0,0 0 20px #f0f0f0,0 0 30px #f0f0f0,0 0 40px yellow,0 0 50px yellow,0 0 80px yellow,0 0 100px yellow,0 0 150px yellow;
+}
+.azul{
+  text-shadow: 0 0 10px #f0f0f0,0 0 20px #f0f0f0,0 0 30px #f0f0f0,0 0 40px #0b00f9,0 0 50px #0b00f9,0 0 80px #0b00f9,0 0 100px #0b00f9,0 0 150px #0b00f9;
+}
